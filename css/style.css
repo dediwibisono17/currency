@@ -1,0 +1,35 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #e0e0e0;
+}
+.cont {
+    align-items: flex-end;
+}
+h1 {
+    font-size: 32px;
+}
+.table-hide {
+    max-height: 216px;
+    overflow-x: scroll;
+}
+.result {
+    padding: 16px;
+}
+#result {
+    font-size: 32px;
+    color: green;
+    font-weight: bold;
+}
+#time {
+    font-weight: bold;
+}
+.orient {
+    cursor: pointer;margin: 0 auto;text-align: center;display: block;
+}
+
+.shadow {
+    border-bottom: 0 none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+    background-color: #fff;
+    border-radius: 0 0 16px 16px;
+}
