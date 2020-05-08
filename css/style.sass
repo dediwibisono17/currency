@@ -1,10 +1,16 @@
 $color-purple : #b39ddb
 $color-light-purple : #9575cd
-    
+
+$layout-breakpoint-small: 566px
+
+@media (max-width: $layout-breakpoint-small) 
+  .shadow
+    height: 100vh
+    border-radius: 0 !important
+
 body
     font-family: 'Quicksand', Arial
     color: white
-    height: 100vh
     box-sizing: border-box
 
     #result,
@@ -81,5 +87,4 @@ body
         align-items: flex-end
 
         h1
-            font-size: 24px
-        
+            font-size: 24px  

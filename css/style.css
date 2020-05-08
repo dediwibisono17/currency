@@ -1,7 +1,12 @@
+@media (max-width: 566px) {
+  .shadow {
+    height: 100vh;
+    border-radius: 0 !important;
+  }
+}
 body {
   font-family: "Quicksand", Arial;
   color: white;
-  height: 100vh;
   box-sizing: border-box;
 }
 body #result,
