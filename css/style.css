@@ -1,35 +1,72 @@
 body {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #e0e0e0;
+  font-family: "Quicksand", Arial;
+  color: white;
+  height: 100vh;
+  box-sizing: border-box;
 }
-.cont {
-    align-items: flex-end;
+body #result,
+body #time {
+  color: yellow;
 }
-h1 {
-    font-size: 32px;
+body #result {
+  font-size: 32px;
 }
-.table-hide {
-    max-height: 216px;
-    overflow-x: scroll;
+body .modal-title {
+  color: black;
 }
-.result {
-    padding: 16px;
+body .btn-link {
+  color: white;
 }
-#result {
-    font-size: 32px;
-    color: green;
-    font-weight: bold;
+body .btn-link:hover {
+  color: white;
 }
-#time {
-    font-weight: bold;
+body .table-hide {
+  max-height: 200px;
+  overflow-y: scroll;
 }
-.orient {
-    cursor: pointer;margin: 0 auto;text-align: center;display: block;
+body .shadow {
+  padding: 24px;
+  background: url(../img/bg-header-bl.png) left bottom no-repeat, url(../img/bg-header-br.png) right bottom no-repeat, #9575cd;
+  box-shadow: inset 0 -15px 15px -15px rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 16px 16px;
+}
+body .orient {
+  cursor: pointer;
+}
+body .title {
+  padding: 24px 0;
+  font-weight: bold;
+  line-height: 0;
+  text-align: center;
+  font-size: 32px;
+}
+body .input {
+  border: 1px solid transparent;
+  background: transparent;
+  color: white;
+  border-bottom: 1px solid #b39ddb;
+}
+body .input:focus {
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid white;
+  outline: 0;
+  box-shadow: initial;
+}
+body .custom-select {
+  border: 1px solid #b39ddb;
+}
+body .custom-select:focus {
+  border-color: #9575cd;
+  outline: 0;
+  box-shadow: initial;
+}
+body .cont {
+  align-items: flex-end;
+}
+body .cont h1 {
+  font-size: 24px;
 }
 
-.shadow {
-    border-bottom: 0 none;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
-    background-color: #fff;
-    border-radius: 0 0 16px 16px;
-}
+/*# sourceMappingURL=style.css.map */
