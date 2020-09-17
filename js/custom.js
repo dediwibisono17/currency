@@ -104,11 +104,3 @@ function oneDot(input) {
 
     input.value = normal;
 }
-
-// $("#my-numb").keyup(function(){
-//     var name_ = $("#my-numb").val();
-//     var name_reg = /^\d+$/;
-//     if (!name_reg.test(name_)) {
-//     	alert(1)
-//     }
-// })
