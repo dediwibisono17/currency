@@ -3,11 +3,72 @@
     height: 100vh;
     border-radius: 0 !important;
   }
+
+  .email {
+    font-size: 24px;
+  }
+
+  .height-auto {
+    height: auto !important;
+  }
 }
+.small {
+  font-size: 12px;
+}
+
 body {
   font-family: "Quicksand", Arial;
   color: white;
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+body a {
+  color: white;
+}
+body a:hover {
+  color: white;
+  text-decoration: none;
+}
+body .email {
+  margin: 56px 0;
+}
+body .email a {
+  color: rebeccapurple;
+  font-weight: bold;
+  background: white;
+  padding: 16px 24px;
+  border-radius: 24px;
+  margin: 16px 0;
+}
+body .email a:hover {
+  text-decoration: none;
+}
+body .breadcumb {
+  display: block;
+  margin-bottom: 32px;
+}
+body .breadcumb .active {
+  font-weight: bold;
+}
+body .breadcumb .active::before {
+  content: "/ ";
+}
+body .breadcumb a {
+  display: inline-block;
+  color: white;
+}
+body .breadcumb a:hover {
+  text-decoration: none;
+  color: silver;
+}
+body footer a {
+  font-size: 12px;
+  color: white;
+  margin: 0 4px;
+}
+body footer a:hover {
+  color: silver;
+  text-decoration: none;
 }
 body #result,
 body #time {

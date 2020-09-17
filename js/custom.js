@@ -84,3 +84,31 @@ function compare(){
         })
     })
 }
+
+function reverseNumber(input) {
+    return [].map.call(input, function(x) {
+       return x;
+     }).reverse().join(''); 
+   }
+   
+   function plainNumber(number) {
+      return number.split('.').join('');
+   }
+
+function oneDot(input) {
+    var value = input.value,
+    plain = plainNumber(value),
+    reversed = reverseNumber(plain),
+    reversedWithDots = reversed.match(/.{1,3}/g).join('.'),
+    normal = reverseNumber(reversedWithDots);
+
+    input.value = normal;
+}
+
+// $("#my-numb").keyup(function(){
+//     var name_ = $("#my-numb").val();
+//     var name_reg = /^\d+$/;
+//     if (!name_reg.test(name_)) {
+//     	alert(1)
+//     }
+// })
