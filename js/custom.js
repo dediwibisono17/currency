@@ -99,7 +99,7 @@ function oneDot(input) {
     var value = input.value,
     plain = plainNumber(value),
     reversed = reverseNumber(plain),
-    reversedWithDots = reversed.match(/.{1,3}/g).join('.'),
+    reversedWithDots = reversed.match(/.{1,3}/g).join(','),
     normal = reverseNumber(reversedWithDots);
 
     input.value = normal;
