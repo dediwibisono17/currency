@@ -33,7 +33,7 @@ function swap() {
 
 $("#from")
 
-let url = 'https://api.exchangeratesapi.io/latest'
+let url = 'http://api.exchangeratesapi.io/v1/latest?access_key=b7962ff94e8bb972a375d4db55efeb58&format=1'
 $.ajax({
     url: url,
     type: 'GET',
